@@ -42,7 +42,7 @@ pipeline {
                  sh 'npm install --silent'
 
                  echo "Building the docker image"
-                 sh 'docker build -t project_aplha:latest'
+                 sh 'docker build -t project_aplha:latest .'
             }
         }
 
