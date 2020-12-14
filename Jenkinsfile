@@ -54,8 +54,8 @@ pipeline {
             
             
             steps {
-                echo "NPM start"
-                sh 'npm start --silent'
+                echo "docker start"
+                sh 'docker run -d -p 3000:3000 project_aplha'
             }
         }
 
