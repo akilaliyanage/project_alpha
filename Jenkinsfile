@@ -1,6 +1,8 @@
 pipeline {
 
-    agent none
+    agent node
+    
+    node master
     
     stages {
         
